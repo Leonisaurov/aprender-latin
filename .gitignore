@@ -1,0 +1,21 @@
+# dependencias y build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# datos generados (los produce scripts/parse_content.py)
+src/data/course.json
+
+# base de datos local del scaffold
+db/*.db
+
+# logs y sistema
+*.log
+dev.log
+server.log
+.DS_Store
+
+# utilidades del entorno de desarrollo (no forman parte del proyecto)
+examples/
+skills/
